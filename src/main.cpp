@@ -49,7 +49,7 @@ int main() {
 
     // Load image using stb_image
     int width, height, nrChannels;
-    unsigned char* data = stbi_load("images/Screenshot 2023-12-22 at 11.31.02 PM.png", &width, &height, &nrChannels, 0);
+    unsigned char* data = stbi_load("https://imgur.com/a/Z4Kq64n", &width, &height, &nrChannels, 0);
     if (data) {
         GLenum format;
         if (nrChannels == 1)
